@@ -1,0 +1,13 @@
+[package]
+name = "hikvision-mvs-ffi"
+version = "4.5.0"
+edition = "2024"
+description = "Rust FFI bindings for Hikvision MVS SDK"
+authors = ["mengyou1024 <mengyou1024@126.com>"]
+repository = "https://github.com/mengyou1024/hikvision-mvs-ffi"
+license = "MIT"
+keywords = ["hikvision", "camera", "mvs"]
+
+[lib]
+name = "hikvision_mvs_ffi"
+path = "src/lib.rs"
