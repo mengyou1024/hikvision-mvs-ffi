@@ -1,6 +1,6 @@
 [package]
 name = "hikvision-mvs-ffi"
-version = "4.5.0"
+version = "4.5.1"
 edition = "2024"
 description = "Rust FFI bindings for Hikvision MVS SDK"
 authors = ["mengyou1024 <mengyou1024@126.com>"]

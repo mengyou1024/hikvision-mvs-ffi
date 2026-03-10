@@ -14,7 +14,8 @@ enum WindowsArch {
 
 fn main() {
     if std::env::consts::OS != "windows" {
-        panic!("This build script is only intended for Windows platforms.");
+        println!("cargo:warning=This build script is only intended for Windows platforms.");
+        return;
     }
 
     let target = env::var("TARGET").expect("TARGET environment variable not set");
@@ -30,7 +31,10 @@ fn main() {
     let lib_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap()).join(match arch {
         WindowsArch::X86 => "Libraries/Win32",
         WindowsArch::X86_64 => "Libraries/Win64",
-        WindowsArch::Other => panic!("Unsupported target architecture :{target}"),
+        WindowsArch::Other => {
+            println!("cargo:warning=Unsupported target architecture: {}", target);
+            return;
+        }
     });
     println!("cargo:rustc-link-search=native={}", lib_path.display());
     println!("cargo:rustc-link-lib=static=MvCameraControl");
