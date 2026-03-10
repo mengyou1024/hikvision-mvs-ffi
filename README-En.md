@@ -1,16 +1,16 @@
 # Hikvision MVS SDK Rust FFI Bindings
 
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://developer.microsoft.com/en-us/windows/)
-[![SDK Version](https://img.shields.io/badge/MVS%20SDK-4.5.1-orange.svg)](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+[![SDK Version](https://img.shields.io/badge/MVS%20SDK-4.5.1-orange.svg)](https://www.hikrobotics.com/cn/machinevision/service/download)
 [![Rust Edition](https://img.shields.io/badge/rust-edition%202024-lightgrey.svg)](https://doc.rust-lang.org/edition-guide/rust-2024/index.html)
 
 This project provides Rust FFI bindings for the Hikvision MVS (Machine Vision Software SDK), allowing Rust applications to directly interact with Hikvision industrial cameras.
 
 ## ⚠️ Important Notes
 
-- **Platform Limitation**: This project **only supports Windows platform(MSVC)**, does not support Linux or macOS
+- **Platform Limitation**: This project **only supports Windows platform**, does not support Linux or macOS
 - **SDK Dependency**: Must install **Hikvision MVS SDK 4.5.1** runtime environment
-- **Download Link**: [MVS SDK Download](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+- **Download Link**: [MVS SDK Download](https://www.hikrobotics.com/cn/machinevision/service/download)
 
 ## 📋 Environment Requirements
 
@@ -24,7 +24,7 @@ This project provides Rust FFI bindings for the Hikvision MVS (Machine Vision So
 1. **Install MVS SDK**
    ```bash
    # Visit the following link to download and install MVS SDK 4.5.1
-   https://www.hikrobotics.com/cn/machinevision/service/download/?module=0
+   https://www.hikrobotics.com/cn/machinevision/service/download
    ```
 
 2. **Verify Installation**
@@ -192,6 +192,6 @@ For more examples, please check the [`examples/`](examples) directory.
 ## 📖 References
 
 - [Hikvision Robotics Official Website](https://www.hikrobotics.com/cn/)
-- [MVS SDK Download](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+- [MVS SDK Download](https://www.hikrobotics.com/cn/machinevision/service/download)
 - [Rust FFI Guide](https://doc.rust-lang.org/nomicon/ffi.html)
 - [Rust Edition 2024](https://doc.rust-lang.org/edition-guide/rust-2024/index.html)

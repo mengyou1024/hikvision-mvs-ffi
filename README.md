@@ -1,16 +1,16 @@
 # 海康威视 MVS SDK Rust FFI 绑定
 
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://developer.microsoft.com/en-us/windows/)
-[![SDK Version](https://img.shields.io/badge/MVS%20SDK-4.5.1-orange.svg)](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+[![SDK Version](https://img.shields.io/badge/MVS%20SDK-4.5.1-orange.svg)](https://www.hikrobotics.com/cn/machinevision/service/download)
 [![Rust Edition](https://img.shields.io/badge/rust-edition%202024-lightgrey.svg)](https://doc.rust-lang.org/edition-guide/rust-2024/index.html)
 
 本项目提供了海康威视 MVS (Machine Vision Software SDK) SDK 的 Rust FFI 绑定，允许 Rust 应用程序直接与海康威视工业相机进行交互。
 
 ## ⚠️ 重要说明
 
-- **平台限制**: 本项目**仅支持 Windows 平台(MSVC)**,不支持 Linux 或 macOS
+- **平台限制**: 本项目**仅支持 Windows 平台**,不支持 Linux 或 macOS
 - **SDK 依赖**: 必须安装**海康威视 MVS SDK 4.5.1**运行时环境
-- **下载地址**: [MVS SDK 下载](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+- **下载地址**: [MVS SDK 下载](https://www.hikrobotics.com/cn/machinevision/service/download)
 
 ## 📋 环境要求
 
@@ -24,7 +24,7 @@
 1. **安装 MVS SDK**
    ```bash
    # 访问以下地址下载并安装 MVS SDK 4.5.1
-   https://www.hikrobotics.com/cn/machinevision/service/download/?module=0
+   https://www.hikrobotics.com/cn/machinevision/service/download
    ```
 
 2. **验证安装**
@@ -192,6 +192,6 @@ fn main() {
 ## 📖 参考资料
 
 - [海康威视机器人官网](https://www.hikrobotics.com/cn/)
-- [MVS SDK 下载](https://www.hikrobotics.com/cn/machinevision/service/download/?module=0)
+- [MVS SDK 下载](https://www.hikrobotics.com/cn/machinevision/service/download)
 - [Rust FFI 指南](https://doc.rust-lang.org/nomicon/ffi.html)
 - [Rust Edition 2024](https://doc.rust-lang.org/edition-guide/rust-2024/index.html)
